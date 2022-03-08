@@ -15,7 +15,7 @@ const { pixelmatch } = require('./pkg/wasm_pixelmatch.js');
 // ...
 ```
 
-Measurement: comparing red 1280 x 720 image with white 1280 x 720 images; threshold = 2, the rest is default.
+Measurement: comparing red 1280 x 720 image with white 1280 x 720 images; threshold = 0.2, the rest is default.
 
 ```
 pixelmatch: 67.481ms
